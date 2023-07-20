@@ -166,7 +166,7 @@ const projects = [
     {
         name: "Admin Dashboard",
         description:
-            " This is an admin dashboard application designed to provide a user-friendly interface for managing various aspects of your business. It offers several pages with different functionalities, including Ecommerce, Calendar, Kanban, Color Picker, Employee Data, Customer Data, and Orders Data. Additionally, it supports features such as pagination, sorting, search, edit, and delete operations. Furthermore, the application offers different theme colors to customize the appearance according to your preferences.",
+            "Admin dashboard application designed to provide a user-friendly interface for managing various aspects of your business. It offers several pages with different functionalities, including Ecommerce, Calendar, Kanban, Color Picker, Employee Data, Customer Data, and Orders Data. Additionally, it supports features such as pagination, sorting, search, edit, and delete operations.",
         tags: [
             {
                 name: "react",
