@@ -3,6 +3,8 @@ import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { github } from "../assets";
+import { livedemo } from "../assets";
+import { demo } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -14,35 +16,50 @@ const ProjectCard = ({
       tags,
       image,
       source_code_link,
+      live_demo_link
 }) => {
       return (
             <motion.div >
                   <div
-                        className='bg-tertiary p-5 rounded-2xl sm:w-[500px]  hover:w-[600px] hover:h-[600px] hover:duration-1000 ease-out '
+                        className='bg-tertiary p-5 rounded-2xl sm:w-[500px]  md:hover:w-[600px] md:hover:h-auto md:hover:duration-1000 ease-out '
                   >
-                        <div className='relative w-full h-[230px] hover:h-[400px] duration-1000 ease-out'>
+                        <div className='relative w-full h-[230px] md:hover:h-[400px] duration-1000'>
                               <img
                                     src={image}
                                     alt='project_image'
                                     className='w-full h-full object-cover rounded-2xl'
                               />
 
-                              <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+
+                              <div className='absolute inset-0 flex justify-end m-3 card-img_hover '>
                                     <div
                                           onClick={() => window.open(source_code_link, "_blank")}
-                                          className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+                                          className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer mr-2'
                                     >
                                           <img
                                                 src={github}
                                                 alt='source code'
-                                                className='w-1/2 h-1/2 object-contain'
+                                                className='w-full h-full object-contain'
+                                          />
+                                    </div>
+                                    <div
+                                          onClick={() => window.open(live_demo_link, "_blank")}
+                                          className='black-gradient w-10 h-10  flex justify-center items-center cursor-pointer rounded-full'
+                                    >
+                                          <img
+                                                src={demo}
+                                                alt='live'
+                                                className='w-full h-full object-contain rounded-full'
                                           />
                                     </div>
                               </div>
+
                         </div>
 
                         <div className='mt-5 '  >
-                              <h3 className='text-white font-bold text-[24px]'>{name}</h3>
+                              <div className='flex'>
+                                    <h3 className='text-white font-bold text-[24px] mr-20'>{name}</h3>
+                              </div>
                               <p className='mt-2 text-secondary text-[14px]'>{description}</p>
                         </div>
 

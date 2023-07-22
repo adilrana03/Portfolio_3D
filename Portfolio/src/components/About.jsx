@@ -58,7 +58,7 @@ const About = () => {
                                         text because{' '}
                                         <strong className='text-orange-400'>Communication is a two-way street.</strong>
                                 </p>
-                                <img src={Profile3} alt="" className='h-[350px] w-[350px] p-2 md:mt-[-80px] rounded-full ml-8 mr-[-60px] hover:h-[500px] hover:w-[500px] hover:rounded-[30%] ' />
+                                <img src={Profile3} alt="" className='h-[350px] w-[350px] p-2 md:mt-[-80px] rounded-full ml-8 mr-[-60px] md:hover:h-[400px] md:hover:w-[400px]  duration-500 hover:rounded-[50%] ' />
                         </motion.p>
 
                         <div className='mt-20 flex flex-wrap gap-10 justify-center'>

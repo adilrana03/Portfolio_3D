@@ -21,7 +21,8 @@ import {
     BB,
     Zoomcar,
     ET,
-    AD
+    AD,
+    livedemo
 } from "../assets";
 
 export const navLinks = [
@@ -166,7 +167,7 @@ const projects = [
     {
         name: "Admin Dashboard",
         description:
-            "Admin dashboard application designed to provide a user-friendly interface for managing various aspects of your business. It offers several pages with different functionalities, including Ecommerce, Calendar, Kanban, Color Picker, Employee Data, Customer Data, and Orders Data. Additionally, it supports features such as pagination, sorting, search, edit, and delete operations.",
+            "Admin dashboard application designed to provide a user-friendly interface for managing various aspects of your business. It offers several pages with different functionalities, including Ecommerce, Calendar, Kanban, Color Picker, Employee Data, Customer Data, and Orders Data. it also supports features pagination, sorting, search, edit, and delete operations.",
         tags: [
             {
                 name: "react",
@@ -256,7 +257,7 @@ const projects = [
         live_demo_link: "https://ajio-clone-masaiproject.netlify.app/"
     },
     {
-        name: "Big Basket (Clone",
+        name: "Big Basket (Clone)",
         description: "This is an Grocery Ordering Web Application where the customers can login and go through all the items i.e veget staples, cosmetic so on & then they can add the items according to their cart and pay for the above items via card or cash, the items get delivered.Thank You for ordering ",
         tags: [
             {
