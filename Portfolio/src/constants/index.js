@@ -22,7 +22,8 @@ import {
     Zoomcar,
     ET,
     AD,
-    livedemo
+    livedemo,
+    car_showcase
 } from "../assets";
 
 export const navLinks = [
@@ -164,6 +165,29 @@ const experiences = [
 
 
 const projects = [
+    {
+        name: "Car Showcase",
+        description:
+            "This is a web application that allows users to explore a collection of cars along with their details. Whether you're a car enthusiast, a potential buyer, or just curious about different car models, this project is designed to provide you with a visually appealing and user-friendly platform to discover various cars and their specifications.",
+        tags: [
+            {
+                name: "NEXTJS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "rapid api",
+                color: "green-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: car_showcase,
+        source_code_link: "https://github.com/adilrana03/car_showcase",
+        live_demo_link: "https://car-showcase-jd70yh72o-adilrana03.vercel.app/",
+    },
+
     {
         name: "Admin Dashboard",
         description:

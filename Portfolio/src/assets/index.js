@@ -40,6 +40,7 @@ import BB from "./big.png";
 import Zoomcar from "./ZoomCar.jpeg";
 import ET from "./ET.jpg"
 import AD from "./dashboard4.png"
+import car_showcase from "./Car_Showcase.png"
 
 
 export {
@@ -78,5 +79,6 @@ export {
   ET,
   AD,
   livedemo,
-  demo
+  demo,
+  car_showcase
 };
