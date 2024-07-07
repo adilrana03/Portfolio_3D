@@ -41,6 +41,11 @@ import Zoomcar from "./ZoomCar.jpeg";
 import ET from "./ET.jpg"
 import AD from "./dashboard4.png"
 import car_showcase from "./Car_Showcase.png"
+import cicc from "./cicc.png"
+import libertum from "./libertum.png"
+import Hamster from "./Hamster.png"
+import growwin from "./growwin.png"
+
 
 
 export {
@@ -80,5 +85,5 @@ export {
   AD,
   livedemo,
   demo,
-  car_showcase
+  car_showcase, cicc,libertum,growwin,Hamster
 };

@@ -23,7 +23,8 @@ import {
     ET,
     AD,
     livedemo,
-    car_showcase
+    car_showcase,
+    libertum, cicc, Hamster, growwin
 } from "../assets";
 
 export const navLinks = [
@@ -136,24 +137,24 @@ const testimonials = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
+        title: "Senior Developer",
+        company_name: "Tron Aqua India Pvt Ltd",
         icon: starbucks,
         iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        date: "Oct 23 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Developing and maintaining web applications using React.js, Next js, Node js, Express and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
+        title: "Freelancer",
+        company_name: "",
         icon: tesla,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        date: "Jan 2023 - Oct 2023",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -162,31 +163,29 @@ const experiences = [
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
+        title: "Senior Developer",
+        company_name: "Masai School",
         icon: shopify,
         iconBg: "#383E56",
         date: "Jan 2022 - Jan 2023",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Helping Students to improve their coding skills and resolve their doubts"
         ],
     },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+    // {
+    //     title: "Full stack Developer",
+    //     company_name: "Meta",
+    //     icon: meta,
+    //     iconBg: "#E6DEDD",
+    //     date: "Jan 2023 - Present",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
 ];
 
 
@@ -194,6 +193,103 @@ const experiences = [
 
 
 const projects = [
+    {
+        name: "CICC ",
+        description:
+            "This is a Mint & Burn application that allows users to request to become a developer or Invest in Pools created By Developers.",
+        tags: [
+            {
+                name: "NEXTJS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Node js",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Express",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "tailwind css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: cicc,
+        source_code_link: "https://github.com/applytorque/ciccapp",
+        live_demo_link: "https://cicc.app",
+    },
+    {
+        name: "Hamster",
+        description:
+            "Hamster is an app where user can swap cryptos, farm rewards, and embrace financial freedom on cutting-edge Hamster platform",
+        tags: [
+            {
+                name: "NEXTJS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "tailwind css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: Hamster,
+        source_code_link: "https://github.com/adilrana03/hamster",
+        live_demo_link: "hamster-amber.vercel.app",
+    },
+
+    {
+        name: "Growwin Capital",
+        description:
+            "This is a Multi Level Marketing (MLM) App Where users can Invests in Various Plans. Users can also refer to  friends and family member and build a team that helps in earning some persentage from them",
+        tags: [
+            {
+                name: "React",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Node js",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Express",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "tailwind css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: growwin,
+        source_code_link: "https://github.com/adilrana03/growwin",
+        live_demo_link: "https://site.growwincapital.com",
+    },
+    {
+        name: "Libertum",
+        description:
+            "This is a Property Investing website where user can invests in properties",
+        tags: [
+            {
+                name: "React",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Node js",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Express",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "tailwind css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: libertum,
+        source_code_link: "https://github.com/adilrana03/Libertum",
+        live_demo_link: "https://libertum.io",
+    },
     {
         name: "Car Showcase",
         description:
